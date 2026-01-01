@@ -49,7 +49,7 @@ The framework supports mixed supervision, allowing you to combine pseudo-masks w
 
 4. **Prepare your dataset**
    
-   Place your data in the following structure:
+   Place the [The Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) in the data folder:
    ```
    data/
    ├── images/           # Training images
