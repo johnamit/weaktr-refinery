@@ -1,0 +1,58 @@
+# Datasets - stored in Google Drive
+data/
+datasets/
+FineCAMs_tiny/
+RefinedMasks_tiny_medium/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.npy
+
+# Images and Media - stored in Google Drive
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+
+
+# Model weights - handled by Git LFS (don't ignore these)
+# *.pth
+# *.pt
+# *.tf
+# *.ckpt
+# *.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+tmp/
+temp/
