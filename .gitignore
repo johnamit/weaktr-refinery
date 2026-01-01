@@ -6,6 +6,7 @@ RefinedMasks_tiny_medium/
 *.json
 *.parquet
 *.npy
+*.mat
 
 # Images and Media - stored in Google Drive
 *.jpg
@@ -16,6 +17,8 @@ RefinedMasks_tiny_medium/
 *.tiff
 *.mp4
 *.avi
+*.xml
+
 
 
 # Model weights - handled by Git LFS (don't ignore these)
