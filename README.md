@@ -29,6 +29,32 @@ The framework supports mixed supervision, allowing you to combine pseudo-masks w
 
 ---
 
+## Project Structure
+
+```
+weaktr-refinery/
+├── configs/
+│   └── default.py              # Default configuration dataclass
+├── data/                       # Dataset directory (not tracked)
+├── models/                     # Trained model weights (LFS tracked)
+├── scripts/
+│   ├── main.py                 # Entry point / orchestrator
+│   ├── split_data.py           # Train/test split generation
+│   ├── train_ViT_classification.py
+│   ├── build_fine_cams.py      # FineCAM extraction
+│   ├── train_CNN_decoder.py    # Decoder training
+│   ├── build_masks.py          # Pseudo-mask generation
+│   ├── train_supervised_gt.py  # Fully supervised baseline
+│   ├── train_supervised_ws.py  # Weakly supervised training
+│   ├── evaluation.py           # Evaluation metrics
+│   └── utils/
+│       ├── utils.py            # Helper functions
+│       └── environment.yml     # Conda environment
+└── README.md
+```
+
+---
+
 ## Installation
 
 1. **Clone the repository**
@@ -152,32 +178,6 @@ Segmentation results (%) under mixed supervision with varied proportions of grou
 | ViT-Small | Small | 20% | 77.50 | 87.32 | 80.40 | 80.14 | 95.92 |
 | ViT-Small | Small | 30% | 80.72 | 89.33 | 83.85 | 83.41 | 96.15 |
 | ViT-Small | Small | 40% | 84.66 | 91.69 | 87.75 | 87.68 | 96.09 |
-
----
-
-## Project Structure
-
-```
-weaktr-refinery/
-├── configs/
-│   └── default.py              # Default configuration dataclass
-├── data/                       # Dataset directory (not tracked)
-├── models/                     # Trained model weights (LFS tracked)
-├── scripts/
-│   ├── main.py                 # Entry point / orchestrator
-│   ├── split_data.py           # Train/test split generation
-│   ├── train_ViT_classification.py
-│   ├── build_fine_cams.py      # FineCAM extraction
-│   ├── train_CNN_decoder.py    # Decoder training
-│   ├── build_masks.py          # Pseudo-mask generation
-│   ├── train_supervised_gt.py  # Fully supervised baseline
-│   ├── train_supervised_ws.py  # Weakly supervised training
-│   ├── evaluation.py           # Evaluation metrics
-│   └── utils/
-│       ├── utils.py            # Helper functions
-│       └── environment.yml     # Conda environment
-└── README.md
-```
 
 ---
 
