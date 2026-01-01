@@ -1,4 +1,11 @@
-# WeakTR-Refinery
+<h1>
+  WeakTR-Refinery
+  <a href="https://drive.google.com/file/d/1ab02W1ty949CBcTFcbvVeddcFmWR3-iL/view?usp=drive_link">
+    <img align="right"
+      src="https://img.shields.io/badge/Read%20Paper-PDF-black?style=for-the-badge&labelColor=0B3D2E&logo=adobeacrobat&logoColor=white"
+      alt="Read Paper"/>
+  </a>
+</h1>
 
 A weakly-supervised semantic segmentation framework that leverages Vision Transformers (ViT) and Class Activation Maps (CAMs) to generate pseudo-masks for training segmentation models, requiring only image-level labels instead of expensive pixel-level annotations.
 
