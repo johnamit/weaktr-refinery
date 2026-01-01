@@ -1,6 +1,4 @@
 # Datasets - stored in Google Drive
-data/
-datasets/
 FineCAMs_tiny/
 RefinedMasks_tiny_medium/
 *.csv
