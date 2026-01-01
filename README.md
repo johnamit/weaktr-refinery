@@ -22,19 +22,17 @@ This project implements a multi-stage pipeline for weakly-supervised segmentatio
 
 The framework supports mixed supervision, allowing you to combine pseudo-masks with varying proportions of ground truth labels.
 
----
+
 
 ## Prerequisites
 
-- **Python** 3.10+
-- **CUDA** 12.1+ (for GPU acceleration)
-- **Conda** (recommended for environment management)
+* **Python** 3.12+
+* **PyTorch** 2.6+
+* **CUDA** 12.1+ (for GPU acceleration)
 
-### Hardware Requirements
-- GPU with at least 8GB VRAM (recommended)
-- 16GB+ RAM
+**Tested on:** NVIDIA RTX 3090 (24GB) • Ryzen 7 7800X3D • 32GB RAM
 
----
+
 
 ## Project Structure
 
@@ -60,7 +58,7 @@ weaktr-refinery/
 └── README.md
 ```
 
----
+
 
 ## Installation
 
@@ -91,7 +89,7 @@ weaktr-refinery/
    └── Split/            # Auto-generated train/test splits
    ```
 
----
+
 
 ## Usage
 
@@ -138,7 +136,7 @@ python main.py --train \
 | small | medium | 0.05 | 10 | Yes |
 | small | large | 0.061 | 10 | No |
 
----
+
 
 ### Inference / Evaluation
 
@@ -153,7 +151,7 @@ This will:
 - Evaluate on the test set
 - Report IoU, Dice, Accuracy, Precision, and Recall metrics
 
----
+
 
 ## Results
 
@@ -186,7 +184,7 @@ Segmentation results (%) under mixed supervision with varied proportions of grou
 | ViT-Small | Small | 30% | 80.72 | 89.33 | 83.85 | 83.41 | 96.15 |
 | ViT-Small | Small | 40% | 84.66 | 91.69 | 87.75 | 87.68 | 96.09 |
 
----
+
 
 ## Citation
 
@@ -202,7 +200,7 @@ If you use this code in your research, please cite:
 }
 ```
 
----
+
 
 ## License
 
