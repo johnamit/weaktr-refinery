@@ -2,7 +2,7 @@
   WeakTR-Refinery
   <a href="https://drive.google.com/file/d/1ab02W1ty949CBcTFcbvVeddcFmWR3-iL/view?usp=drive_link">
     <img align="right"
-      src="https://img.shields.io/badge/Read%20Paper-PDF-black?style=for-the-badge&labelColor=0B3D2E&logo=adobeacrobat&logoColor=white"
+      src="https://img.shields.io/badge/Read%20Paper-PDF-black?style=for-the-badge&labelColor=0057FF&logo=adobeacrobat&logoColor=white"
       alt="Read Paper"/>
   </a>
 </h1>
