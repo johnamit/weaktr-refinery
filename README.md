@@ -5,6 +5,18 @@
 
 A weakly-supervised semantic segmentation framework that leverages Vision Transformers (ViT) and Class Activation Maps (CAMs) to generate pseudo-masks for training segmentation models, requiring only image-level labels instead of expensive pixel-level annotations.
 
+<p>
+  <a href="#overview"><img src="https://img.shields.io/badge/Overview-111111?style=for-the-badge" alt="Overview"></a>
+  <a href="#prerequisites"><img src="https://img.shields.io/badge/Prerequisites-111111?style=for-the-badge" alt="Prerequisites"></a>
+  <a href="#project-structure"><img src="https://img.shields.io/badge/Structure-111111?style=for-the-badge" alt="Project Structure"></a>
+  <a href="#installation"><img src="https://img.shields.io/badge/Install-111111?style=for-the-badge" alt="Installation"></a>
+  <a href="#usage"><img src="https://img.shields.io/badge/Usage-111111?style=for-the-badge" alt="Usage"></a>
+  <a href="#results"><img src="https://img.shields.io/badge/Results-111111?style=for-the-badge" alt="Results"></a>
+  <a href="#citation"><img src="https://img.shields.io/badge/Citation-111111?style=for-the-badge" alt="Citation"></a>
+  <a href="#license"><img src="https://img.shields.io/badge/License-111111?style=for-the-badge" alt="License"></a>
+</p>
+
+
 ## Overview
 
 This project implements a multi-stage pipeline for weakly-supervised segmentation:
