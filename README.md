@@ -3,7 +3,7 @@
     <img src="https://img.shields.io/badge/Read%20Paper-PDF-black?style=for-the-badge&labelColor=0057FF&logo=adobeacrobat&logoColor=white" alt="Read Paper"/>
   </a>
 
-A weakly-supervised semantic segmentation framework that leverages Vision Transformers (ViT) and Class Activation Maps (CAMs) to generate pseudo-masks for training segmentation models, requiring only image-level labels instead of expensive pixel-level annotations.
+A weakly-supervised semantic segmentation framework that leverages Vision Transformers (ViT) and Class Activation Maps (CAMs) to generate pseudo-masks for training segmentation models, requiring only image-level labels instead of expensive pixel-level annotations. This was a collaborative group research project conducted as part of my MSc programme at University College London.
 
 <p>
   <a href="#overview"><img src="https://img.shields.io/badge/Overview-111111?style=for-the-badge" alt="Overview"></a>
