@@ -203,7 +203,6 @@ If you use this code in your research, please cite:
   author = {Amit John},
   title = {WeakTR-Refinery: Weakly-Supervised Segmentation with Vision Transformers},
   year = {2025},
-  publisher = {GitHub},
   url = {https://github.com/johnamit/weaktr-refinery}
 }
 ```
